@@ -24,7 +24,7 @@ Contributions and feedback are welcome! If you have suggestions for improvements
 
 ## Acknowledgments 🙌
 
-Special thanks to David Mraz (@davidm_ml) for the inspiring UI designs that fueled this project.
+Special thanks to all talented creators for the inspiring UI designs that fueled this project.
 
 
 Happy coding! 🚀✨
