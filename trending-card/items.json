@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Grand Theft Auto VI",
+    "genre": "Adventure",
+    "cover": "https://media-rockstargames-com.akamaized.net/tina-uploads/posts/8978kok9385a82/a21e91fbde08d4d7c9a3e372cc76d72a3ed2262e.jpg",
+    "link": "https://www.youtube.com/watch?v=QdBZY2fkU-0",
+    "type": "game"
+  },
+  {
+    "title": "Alan Wake 2",
+    "genre": "Horror",
+    "cover": "http://t0.gstatic.com/images?q=tbn:ANd9GcShS7ufxtBCEv61H_9XsEgb1jCQFJa3y6qbhPThxl00PELwSVkF7Vt51OBu87EtaUwCNW8MVA",
+    "link": "https://www.playstation.com/en-us/games/marvels-spider-man-2/",
+    "type": "game"
+  },
+  {
+    "title": "Marvel Spider-Man 2",
+    "genre": "Action",
+    "cover": "https://steamuserimages-a.akamaihd.net/ugc/2053126024616157300/AD879D1A2F436CCD9BB785F61D1549045F9696BA/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false",
+    "link": "https://www.playstation.com/en-us/games/marvels-spider-man-2/",
+    "type": "game"
+  },
+  {
+    "title": "Doppelganger: A Trip into the Mirror World",
+    "genre": "Nonefiction",
+    "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ0mUsipwGNICWKkIzUFUUnw6ABDZrb6M_uB7f2uRWirRg7-G_",
+    "link": "https://www.goodreads.com/book/show/138505710-doppelganger?ref=nav_sb_ss_1_12",
+    "type": "book"
+  },
+  {
+    "title": "When Crack Was King: A People's History of a Misunderstood Era",
+    "genre": "History/Biography",
+    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1684815053i/63024187.jpg",
+    "link": "https://www.goodreads.com/book/show/63024187-when-crack-was-king?ref=nav_sb_ss_1_13",
+    "type": "book"
+  },
+  {
+    "title": "Killers of the Flower Moon",
+    "genre": "Drama/Crime/History",
+    "cover": "https://img.fmoviesz.to/i/cache/images/f/f8/f8649e04b4160bb3b1fab4d10fa4a10a.jpg",
+    "link": "https://tv.apple.com/us/movie/killers-of-the-flower-moon/umc.cmc.5x1fg9vferlfeutzpq6rra1zf",
+    "type": "movie"
+  },
+  {
+    "title": "Oppenheimer",
+    "genre": "Drama/History/Biography",
+    "cover": "https://movies.universalpictures.com/media/opr-tsr1sheet3-look2-rgb-3-1-1-64545c0d15f1e-1.jpg",
+    "link": "https://tv.apple.com/us/movie/oppenheimer/umc.cmc.5gylew9icuhfiifdv3oxwxen8",
+    "type": "movie"
+  },
+  {
+    "title": "Past Lives",
+    "genre": "Drama/Romance",
+    "cover": "https://img.fmoviesz.to/i/cache/images/e/ec/ec68b007756ddc6785024062434d8d79.jpg",
+    "link": "https://a24films.com/films/past-lives",
+    "type": "movie"
+  }
+]

@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --card-text-color: #081c15;
+    --box-shadow: #d8f3dc;
+    --border-color: #2d6a4f;
+    --hover-background-color: #b7e4c7
+}
+
+img {  /* styling the dimensions of all the images present in the file.*/
+    width: 4.9rem;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 0.6rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: var(--card-background-color);
+    cursor: pointer;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    color: var(--card-text-color);
+}
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {  /* Applying style to the main element*/
+    width: 36.5rem;
+    height: 36.9rem;
+    border-radius: 1.2rem;
+    color: var(--card-background-color);
+    padding: 2.0rem 2.0rem 2.9rem;
+    box-shadow: 0.3rem 0.9rem 2.9rem var(--box-shadow);
+}
+
+ion-icon {
+    color: var(--card-background-color);
+    font-size: 2.2rem;
+}
+
+.card_status p {
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    margin-bottom: 1.8rem;
+}
+
+.card_categories {
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    border-bottom: 0.01rem solid var(--box-shadow);
+    padding-bottom: 1.5rem;
+}
+
+li button {
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.5rem 1.0rem;
+    border-radius: 0.6rem;
+}
+
+.active {
+    background-color: var(--hover-background-color);
+}
+
+
+.display_container {
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.item_displayed {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.2rem;
+}
+
+.item_description {
+    flex: 1;
+}
+
+.item_title {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.item_genre {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.explore {
+    border: 0.1rem solid var(--border-color);
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.6rem;
+    font-weight: 400;
+    transition: all 350ms ease-in-out;
+}
+
+.explore:hover {
+    background-color: var(--hover-background-color);
+}
+
+@media screen and (max-width: 320px) { /* responsive window.*/
+    body {
+        font-size: 1.2rem;
+    }
+
+    main {
+        width: 31.5rem;
+        height: max-content;
+    }
+}
