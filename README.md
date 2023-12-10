@@ -1,6 +1,6 @@
 # UI Designs Compilation Project 👨‍💻
 
-Welcome to my UI Designs Compilation Project! 🎉 This project is a compilation of UI designs found on X (replace with the actual source, e.g., Twitter) to enhance my coding skills, focusing on JavaScript and CSS. It's my first challenging project using JavaScript, and I'm excited to share my progress.
+Welcome to my UI Designs Compilation Project! 🎉 This project is a compilation of UI designs found on X (Twitter) to enhance my coding skills, focusing on JavaScript and CSS. It's my first challenging project using JavaScript, and I'm excited to share my progress.
 
 ## Project Overview 🚀
 
