@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Publish Model</title>
     <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
 <body>
     <!-- main container -->
@@ -18,7 +20,9 @@
 
         <section class="product_section">
             <div class="product_details">
-                <div class="product_image"></div>
+                <div class="product_image">
+                    <img src="https://i.pinimg.com/564x/52/73/eb/5273eb81f1dce323b3f789cd7188be5d.jpg" alt="product image">
+                </div>
                 <div class="product_description">
                     <h2 class="product_name">
                         Nothing_Ear-Stick-Scanned
@@ -26,52 +30,68 @@
                     <div class="product_spec">
                         <div class="specification">
                             <p class="title">Specifications</p>
-                            <span>250MB</span>.<span>GLB</span>
+                            <span class="size">250MB</span> . <span class="file"><ion-icon name="document"></ion-icon> GLB</span>
                         </div>
                         <div class="category">
                             <p class="title">Category</p>
-                            <span class="hashtag"># electronics & gadgets</span>
+                            <span class="hashtag">#  electronics & gadgets</span>
                         </div>
                     </div>
                 </div>
             </div>
 
             <article class="product_action">
-                <div class="public">
-                    <div class="web_icon"></div>
+                <div class="item_card">
+                    <div class="icon_box">
+                        <ion-icon name="globe-outline"></ion-icon>
+                    </div>
                     <div class="public_domain">
-                        <p class="domain_title">
+                        <p class="item_title">
                             Public
                         </p>
-                        <p class="domain_descr">
+                        <p class="item_descr">
                             Your model will be shared publicly.
                         </p>
-                        <div class="switch"></div>
                     </div>
+                        <div class="switch_container">
+                            <!-- adding a swtich -->
+                            <input type="checkbox" id="switch" class="public" />
+                            <label for="switch">Toogle</label>
+                        </div>
                 </div>
-                <div class="download_action">
-                    <div class="download_icon"></div>
+
+                <hr class="border" />
+                <div class="item_card">
+                    <div class="icon_box">
+                        <ion-icon name="cloud-download-outline"></ion-icon>
+                    </div>
                     <div class="download_domain">
-                        <p class="download_title">
+                        <p class="item_title">
                             Free download
                         </p>
-                        <p class="download_action">
+                        <p class="item_descr">
                             You can offer a lead magnet to you audience.
                         </p>
                     </div>
-                    <div class="switch"></div>
+                    <div class="switch_container">
+                        <input type="checkbox" id="download" class="download" />
+                        <label for="download">Toogle</label>
+                    </div>
                 </div>
             </article>
-            <article class="restriction">
-                <div class="alert_icon"></div>
+            <article class="item_card">
+                <div class="icon_box gray_bgk">
+                    <ion-icon name="warning"></ion-icon>
+                </div>
                 <div class="alert_domain">
-                    <p class="alert_title">Check this as age-restricted content</p>
-                    <p class="alert_action">
+                    <p class="item_title">Check this as age-restricted content</p>
+                    <p class="item_descr">
                         The model will be shown to the relevant audience.
                     </p>
                 </div>
                 <div class="input">
                     <input type="checkbox" name="alert_domain" id="alert_domain">
+                    <label for="alert_domain">warning</label>
                 </div>
             </article>
         </section>
